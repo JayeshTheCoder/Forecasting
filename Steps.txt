@@ -1,0 +1,15 @@
+Steps
+1. Identify one cost element                                                                       = Done
+2. Spread Monthly data into weekly data for last 2 years and current year till date                = Done
+3. Check for stationarity (perform stationarity dickey-tuller test)
+4. if required stationarize the data
+5. Then check for trends like seasonality, noise and cyclicity trend analysis
+6. Decide and try atleast 3-4 model constructs
+6a. Moving average
+6b. Exponential Smoothing
+6c. ARIMA and S-ARIMA if seasonality exists
+6d. FB Prophet
+7. Finalize the model construct
+8. Check for model accuracy
+9. Try for a few more cost elements
+10. Review
